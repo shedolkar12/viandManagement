@@ -1,0 +1,24 @@
+categories: 
+'mutton', 'Muton', 
+'chicken', 'Chicken'
+'fish_and_seafood', 'Fish & Sea Food'
+'combo_meat', 'Combo Offers'
+
+meat: 
+'chicken_curry_cut_small', 'Chicken Curry Cut Small',
+'chicken_curry_cut_large', 'Chicken Curry Cut Large'
+'chicken_curry_cut_boneless', 'Chicken Curry Cut(Boneless)'
+'chicken_drumstick', 'Chicken Drumstick',
+'chicken_breast', 'Chicken Breast',
+'rich_goat_curry_cut', 'Rich Goat Curry Cut',
+'lean_goat_curry_cut', 'Lean Goat Curry Cut',
+'biryani_goat_cut', 'Biryani Cut(Goat)',
+'prawns', 'Prawns',
+'seer_large', 'Seer(Vanjram/Surmai) Large',
+'rohu_medium', 'Rohu(Rui) Medium - Bengali Cut'
+
+relationship:
+'mutton' , ['rich_goat_curry_cut', 'rich_goat_curry_cut', 'biryani_goat_cut']
+'chicken', ['chicken_curry_cut_small', 'chicken_curry_cut_large', 'chicken_curry_cut_boneless', 'chicken_breast', 'chicken_drumstick']
+'fish_and_seafood', ['prawns', 'seer_large', 'rohu_medium']
+
