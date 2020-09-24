@@ -1,4 +1,6 @@
 ```python
+Quick Setps for inittial setup:
+
 git clone https://github.com/shedolkar12/viandManagement.git
 
 cd viandManagement
