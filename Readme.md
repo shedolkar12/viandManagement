@@ -18,6 +18,10 @@ source add_sample_data.sh
 Command for Local Server:
 python manage.py runserver 8000
 
+
+```
+## Fetching combo Products API
+```python
 APIs:
 GET: [http://localhost:8000/api/comboproducts/<branch_id>/]
 
@@ -94,6 +98,9 @@ returns response:
   "limit": 10
 }
 -----------------------------------------------------------------------------
+```
+## API for Placing Order combo/individual products
+```python
 POST: http://127.0.0.1:8000/api/placeOrder/
 request body:
 {  
