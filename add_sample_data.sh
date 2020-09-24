@@ -1,0 +1,9 @@
+python manage.py loaddata backend/fixtures/user.json --app auth.User
+python manage.py loaddata backend/fixtures/customer.json --app backend.customer
+python manage.py loaddata backend/fixtures/customer_address.json --app backend.customeraddress
+python manage.py loaddata backend/fixtures/branch.json --app backend.Branch
+python manage.py loaddata backend/fixtures/product.json --app backend.Product
+python manage.py loaddata backend/fixtures/categories.json --app backend.Categories
+python manage.py loaddata backend/fixtures/combo.json --app backend.ComboProduct
+python manage.py loaddata backend/fixtures/combo_product_relation.json --app backend.ComboProductRelation
+python manage.py loaddata backend/fixtures/pricing.json --app backend.Pricing

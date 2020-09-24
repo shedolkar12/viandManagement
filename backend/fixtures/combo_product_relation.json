@@ -1,0 +1,65 @@
+[
+    {
+      "model": "backend.comboproductrelation",
+      "pk": 1,
+      "fields": {
+        "combo_product_id": "chicken_curry_cut_small-prawns",
+        "product_id": "chicken_curry_cut_small",
+        "created_at": "2020-08-22 13:34"
+      }
+    },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 2,
+        "fields": {
+          "combo_product_id": "chicken_curry_cut_small-prawns",
+          "product_id": "prawns",
+          "created_at": "2020-08-22 13:34"
+        }
+      },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 3,
+        "fields": {
+          "combo_product_id": "chicken_curry_cut_small-biryani_goat_cut",
+          "product_id": "chicken_curry_cut_small",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 4,
+        "fields": {
+          "combo_product_id": "chicken_curry_cut_small-biryani_goat_cut",
+          "product_id": "biryani_goat_cut",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 5,
+        "fields": {
+          "combo_product_id": "prawns-seer_large-rohu_medium",
+          "product_id": "prawns",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 6,
+        "fields": {
+          "combo_product_id": "prawns-seer_large-rohu_medium",
+          "product_id": "seer_large",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.comboproductrelation",
+        "pk": 7,
+        "fields": {
+          "combo_product_id": "prawns-seer_large-rohu_medium",
+          "product_id": "rohu_medium",
+          "created_at": "2020-08-22 13:34"
+        }
+    }
+  ]

@@ -1,0 +1,9 @@
+[
+    {
+      "model": "backend.Customer",
+      "pk": 54321,
+      "fields": {
+          "user_id": 34211
+      }
+    }
+]

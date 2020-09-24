@@ -1,0 +1,32 @@
+[
+    {
+      "model": "backend.comboproduct",
+      "pk": "chicken_curry_cut_small-prawns",
+      "fields": {
+        "description": "Chicken Curry Cut Small(500gm) & Prawns",
+        "created_at": "2020-08-22 13:34",
+        "branch_id": 123,
+        "is_active": true
+      }
+    },
+    {
+        "model": "backend.comboproduct",
+        "pk": "chicken_curry_cut_small-biryani_goat_cut",
+        "fields": {
+          "description": "Chicken Curry Cut Small(500gm) and Biryani Cut(Goat)",
+          "created_at": "2020-08-22 13:34",
+          "branch_id": 123,
+          "is_active": true
+        }
+    },
+    {
+        "model": "backend.comboproduct",
+        "pk": "prawns-seer_large-rohu_medium",
+        "fields": {
+          "description": "Seer(Vanjram/Surmai) Large 500gm, Prawns(500gm) and Rohu(Rui) Medium - Bengali Cut",
+          "created_at": "2020-08-22 13:34",
+          "branch_id": 123,
+          "is_active": true
+        }
+    }
+  ]

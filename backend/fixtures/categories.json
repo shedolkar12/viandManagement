@@ -1,0 +1,38 @@
+[
+    {
+      "model": "backend.categories",
+      "pk": "mutton",
+      "fields": {
+        "description": "Mutton",
+        "created_at": "2020-08-22 13:34",
+        "is_active": true
+      }
+    },
+    {
+        "model": "backend.categories",
+        "pk": "chicken",
+        "fields": {
+          "description": "Chicken",
+          "created_at": "2020-08-22 13:34",
+          "is_active": true
+        }
+    },
+    {
+        "model": "backend.categories",
+        "pk": "fish_and_seafood",
+        "fields": {
+          "description": "Fish & Sea Food",
+          "created_at": "2020-08-22 13:34",
+          "is_active": true
+        }
+    },
+    {
+        "model": "backend.categories",
+        "pk": "combo_meat",
+        "fields": {
+          "description": "Combo Offers",
+          "created_at": "2020-08-22 13:34",
+          "is_active": true
+        }
+    }
+  ]

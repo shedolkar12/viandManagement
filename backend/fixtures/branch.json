@@ -1,0 +1,14 @@
+[
+    {
+      "model": "backend.Branch",
+      "pk": 123,
+      "fields": {
+        "address": "Koramangla",
+        "city": "Bengluru",
+        "pincode": "560034",
+        "longitude": 23.32,
+        "latitude": 12.65,
+        "created_at": "2020-08-22 13:34"
+      }
+    }
+]

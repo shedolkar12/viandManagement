@@ -1,0 +1,91 @@
+[
+    {
+      "model": "backend.product",
+      "pk": "chicken_curry_cut_small",
+      "fields": {
+        "description": "Chicken Curry Cut Small",
+        "created_at": "2020-08-22 13:34"
+      }
+    },
+    {
+        "model": "backend.product",
+        "pk": "chicken_curry_cut_large",
+        "fields": {
+          "description": "Chicken Curry Cut Large",
+          "created_at": "2020-08-22 13:34"
+
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "chicken_curry_cut_boneless",
+        "fields": {
+          "description": "Chicken Curry Cut(Boneless)",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "chicken_drumstick",
+        "fields": {
+          "description": "Chicken Drumstick",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "chicken_breast",
+        "fields": {
+          "description": "Chicken Breast",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "rich_goat_curry_cut",
+        "fields": {
+          "description": "Rich Goat Curry Cut",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "lean_goat_curry_cut",
+        "fields": {
+          "description": "Lean Goat Curry Cut",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "biryani_goat_cut",
+        "fields": {
+          "description": "Biryani Cut(Goat)",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "prawns",
+        "fields": {
+          "description": "Prawns",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "seer_large",
+        "fields": {
+          "description": "Seer(Vanjram/Surmai) Large",
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.product",
+        "pk": "rohu_medium",
+        "fields": {
+          "description": "Rohu(Rui) Medium - Bengali Cut",
+          "created_at": "2020-08-22 13:34"
+        }
+    }
+  ]

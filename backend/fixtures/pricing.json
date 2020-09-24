@@ -1,0 +1,62 @@
+[
+    {
+      "model": "backend.Pricing",
+      "pk": 1,
+      "fields": {
+        "product_id": "chicken_curry_cut_small",
+        "unit": 0.5,
+        "version": "1.1",
+        "price": 120,
+        "branch_id": 123,
+        "created_at": "2020-08-22 13:34"
+      }
+    },
+    {
+        "model": "backend.Pricing",
+        "pk": 4,
+        "fields": {
+          "product_id": "biryani_goat_cut",
+          "unit": 0.5,
+          "version": "1.1",
+          "price": 500,
+          "branch_id": 123,
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.Pricing",
+        "pk": 5,
+        "fields": {
+          "product_id": "prawns",
+          "unit": 0.5,
+          "version": "1.1",
+          "price": 100,
+          "branch_id": 123,
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.Pricing",
+        "pk": 6,
+        "fields": {
+          "product_id": "seer_large",
+          "unit": 0.5,
+          "version": "1.1",
+          "price": 500,
+          "branch_id": 123,
+          "created_at": "2020-08-22 13:34"
+        }
+    },
+    {
+        "model": "backend.Pricing",
+        "pk": 7,
+        "fields": {
+          "product_id": "rohu_medium",
+          "unit": 0.5,
+          "version": "1.1",
+          "price": 300,
+          "branch_id": 123,
+          "created_at": "2020-08-22 13:34"
+        }
+    }
+  ]
