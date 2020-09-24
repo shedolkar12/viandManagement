@@ -100,8 +100,12 @@ returns response:
 -----------------------------------------------------------------------------
 ```
 ## API for Placing Order combo/individual products
+
 ```python
 POST: http://127.0.0.1:8000/api/placeOrder/
+
+sample_request_postman.postman_collection.json (sample postman request file for the reference)
+
 request body:
 {  
     "branch_id": 123, 
