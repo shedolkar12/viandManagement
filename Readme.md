@@ -1,20 +1,23 @@
 python3 -m venv venv
 source venv/bin/activate
 
-pip install django djangorestframework
+pip install djangorestframework
 pip install Django==2.2
 
 python manage.py makemigrations
 python manage.py migrate
 
 For adding sample data execute following command:
-   source add_sample_data.sh
+`source add_sample_data.sh`
 
 APIs:
-GET: http://localhost:8000/api/comboproducts/<branch_id>/
+
+GET: [http://localhost:8000/api/comboproducts/<branch_id>/]
 
 
-sample request: http://localhost:8000/api/comboproducts/123/
+sample request: [http://localhost:8000/api/comboproducts/123/]
+<pre>
+<code>
 returns response:
 {
   "offset": 0,
@@ -142,3 +145,5 @@ Return Response on success:
     ],
     "order_id": "09fc5e22-a510-4c67-b13b-5ec68ae7601b"
 }
+</code>
+<pre>
