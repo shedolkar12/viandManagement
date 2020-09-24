@@ -1,3 +1,8 @@
+```python
+git clone https://github.com/shedolkar12/viandManagement.git
+
+cd viandManagement
+
 python3 -m venv venv
 source venv/bin/activate
 
@@ -8,10 +13,12 @@ python manage.py makemigrations
 python manage.py migrate
 
 For adding sample data execute following command:
-`source add_sample_data.sh`
+source add_sample_data.sh
+
+Command for Local Server:
+python manage.py runserver 8000
 
 APIs:
-
 GET: [http://localhost:8000/api/comboproducts/<branch_id>/]
 
 
@@ -147,3 +154,4 @@ Return Response on success:
 }
 </code>
 <pre>
+```
