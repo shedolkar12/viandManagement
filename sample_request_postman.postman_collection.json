@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "sample_request_postman",
+		"_postman_id": "32247292-d9a3-0818-8cfd-7e1af4de5d99",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/placeOrder/",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/placeOrder/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \n    \"branch_id\": 123, \n    \"user_id\": 34211, \n    \"items\": [\n        {\n            \"type\": \"individual\", \n            \"products\": [{\"product_id\": \"chicken_curry_cut_small\" }], \n            \"quantity\": 2\n        },\n        {\n            \"type\": \"combo\", \n            \"products\": [{\"product_id\": \"chicken_curry_cut_small\" }, {\"product_id\": \"prawns\"}], \n            \"quantity\": 1\n        }\n        ], \n    \"customer_address_id\": 4542\n}"
+				},
+				"description": "sample"
+			},
+			"response": []
+		}
+	]
+}
